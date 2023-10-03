@@ -15,29 +15,30 @@
 
 <body>
     <div class="meucontainer">
-        <nav class="menu navbar navbar-expand-lg sticky-top ">
-            <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#"><img class="logo" src="./assets/logo.png" alt="Logo da IbuyPhone"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#principal">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#contents">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#rodape">Contato</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class=" menu navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="./assets/logo.png" alt="Logo da Empresa"></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#principal">Inicio <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#contents">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#rodape">Contato</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
             </div>
-        </nav>
+          </nav>
 
         <main id="principal">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

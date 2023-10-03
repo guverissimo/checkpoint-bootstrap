@@ -32,11 +32,7 @@ body {
 
 .menu {
     grid-area: nav;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 7rem;
-    position: fixed;
+    gap: 1rem;
 }
 
 .menu-itens {
